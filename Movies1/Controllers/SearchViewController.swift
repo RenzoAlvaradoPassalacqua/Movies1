@@ -2,8 +2,8 @@
 //  SearchViewController.swift
 //  AppleCoding OAuth
 //
-//  Created by Adolfo Vera Blasco on 28/5/18.
-//  Copyright © 2018 desappstre {eStudio}. All rights reserved.
+//  Modified by Renzo Alvarado
+//  
 //
 
 import UIKit

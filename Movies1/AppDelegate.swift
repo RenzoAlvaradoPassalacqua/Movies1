@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  AppleCoding OAuth
 //
-//  Created by Adolfo Vera Blasco on 26/5/18.
-//  Copyright © 2018 desappstre {eStudio}. All rights reserved.
+//  Created by Renzo Alvarado on 26/5/18.
+//  
 //
 
 import UIKit

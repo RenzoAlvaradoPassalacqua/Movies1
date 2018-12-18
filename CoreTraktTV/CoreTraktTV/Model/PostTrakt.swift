@@ -2,8 +2,8 @@
 //  PostTrakt.swift
 //  CoreTraktTV
 //
-//  Created by Adolfo Vera Blasco on 29/5/18.
-//  Copyright © 2018 desappstre {eStudio}. All rights reserved.
+//  Created by Renzo Alvarado   
+//  
 //
 
 import Foundation

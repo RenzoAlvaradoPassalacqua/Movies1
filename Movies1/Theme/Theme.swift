@@ -2,7 +2,7 @@
 //  Theme.swift
 //  BiciBoard
 //
-//  Created by Adolfo Vera Blasco on 28/8/17.
+//  Created by Renzo Alvarado on 28/8/17.
 //  Copyright © 2017 desappstre {eStudio}. All rights reserved.
 //
 
