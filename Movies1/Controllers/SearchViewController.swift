@@ -12,7 +12,7 @@ import SafariServices
 
 import CoreTraktTV
 
-internal class SearchViewController: UIViewController
+internal class SearchViewController: UIViewController,UICollectionViewDelegateFlowLayout
 {
     ///
     @IBOutlet private weak var collectionViewShows: UICollectionView!
@@ -24,7 +24,13 @@ internal class SearchViewController: UIViewController
     private var paginationFilter : [PaginationFilter] = [PaginationFilter]()
     private let refreshControl = UIRefreshControl()
     private var goToNextpage : Bool = false
-    //
+    
+    var footerView:CustomFooterView?
+    var items = [Int]()
+    var isLoading:Bool = false
+    
+    let footerViewReuseIdentifier = "RefreshFooterView"
+   
     // MARK: - Life Cycle
     //
 
@@ -72,6 +78,81 @@ internal class SearchViewController: UIViewController
         }
         
         refreshControl.addTarget(self, action: #selector(loadMorePopularMovies(_:)), for: .valueChanged)
+        
+        self.collectionViewShows.register(UINib(nibName: "CustomFooterView", bundle: nil), forSupplementaryViewOfKind: UICollectionView.elementKindSectionFooter, withReuseIdentifier: footerViewReuseIdentifier)
+        //
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, referenceSizeForFooterInSection section: Int) -> CGSize {
+        if isLoading {
+            return CGSize.zero
+        }
+        return CGSize(width: collectionView.bounds.size.width, height: 55)
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
+        if kind == UICollectionView.elementKindSectionFooter {
+            let aFooterView = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: footerViewReuseIdentifier, for: indexPath) as! CustomFooterView
+            self.footerView = aFooterView
+            self.footerView?.backgroundColor = UIColor.clear
+            return aFooterView
+        } else {
+            let headerView = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: footerViewReuseIdentifier, for: indexPath)
+            return headerView
+        }
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, willDisplaySupplementaryView view: UICollectionReusableView, forElementKind elementKind: String, at indexPath: IndexPath) {
+        if elementKind == UICollectionView.elementKindSectionFooter {
+            self.footerView?.prepareInitialAnimation()
+        }
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, didEndDisplayingSupplementaryView view: UICollectionReusableView, forElementOfKind elementKind: String, at indexPath: IndexPath) {
+        if elementKind == UICollectionView.elementKindSectionFooter {
+            self.footerView?.stopAnimate()
+        }
+    }
+    
+    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        let threshold   = 100.0 ;
+        let contentOffset = scrollView.contentOffset.y;
+        let contentHeight = scrollView.contentSize.height;
+        let diffHeight = contentHeight - contentOffset;
+        let frameHeight = scrollView.bounds.size.height;
+        var triggerThreshold  = Float((diffHeight - frameHeight))/Float(threshold);
+        triggerThreshold   =  min(triggerThreshold, 0.0)
+        let pullRatio  = min(abs(triggerThreshold),1.0);
+        self.footerView?.setTransform(inTransform: CGAffineTransform.identity, scaleFactor: CGFloat(pullRatio))
+        if pullRatio >= 1 {
+            self.footerView?.animateFinal()
+        }
+        print("pullRation:\(pullRatio)")
+    }
+    
+    //compute the offset and call the load method
+    func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
+        let contentOffset = scrollView.contentOffset.y;
+        let contentHeight = scrollView.contentSize.height;
+        let diffHeight = contentHeight - contentOffset;
+        let frameHeight = scrollView.bounds.size.height;
+        let pullHeight  = abs(diffHeight - frameHeight);
+        print("pullHeight:\(pullHeight)");
+        if pullHeight == 0.0
+        {
+            if (self.footerView?.isAnimatingFinal)! {
+                print("load more trigger")
+                self.isLoading = true
+                self.footerView?.startAnimate()
+                Timer.scheduledTimer(withTimeInterval: 1, repeats: false, block: { (timer:Timer) in
+                    for i:Int in self.items.count + 1...self.items.count + 25 {
+                        self.items.append(i)
+                    }
+                    self.collectionViewShows.reloadData()
+                    self.isLoading = false
+                })
+            }
+        }
     }
     
     @objc private func loadMorePopularMovies(_ sender: Any) {

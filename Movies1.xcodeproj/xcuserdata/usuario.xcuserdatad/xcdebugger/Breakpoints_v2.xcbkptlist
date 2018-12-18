@@ -154,11 +154,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Movies1/Controllers/SearchViewController.swift"
-            timestampString = "566812433.996606"
+            timestampString = "566840292.09834"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "100"
-            endingLineNumber = "100"
+            startingLineNumber = "181"
+            endingLineNumber = "181"
             landmarkName = "localizeText()"
             landmarkType = "7">
          </BreakpointContent>
@@ -170,11 +170,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Movies1/Controllers/SearchViewController.swift"
-            timestampString = "566812433.996751"
+            timestampString = "566840292.098418"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "41"
-            endingLineNumber = "41"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
@@ -186,11 +186,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Movies1/Controllers/SearchViewController.swift"
-            timestampString = "566812433.996859"
+            timestampString = "566840292.098471"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "295"
-            endingLineNumber = "295"
+            startingLineNumber = "376"
+            endingLineNumber = "376"
             landmarkName = "showCell(_:didSelectShow:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -346,11 +346,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Movies1/Controllers/SearchViewController.swift"
-            timestampString = "566812434.0004309"
+            timestampString = "566840292.09869"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "281"
-            endingLineNumber = "281"
+            startingLineNumber = "362"
+            endingLineNumber = "362"
             landmarkName = "showCell(_:didSelectShow:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -394,11 +394,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Movies1/Controllers/SearchViewController.swift"
-            timestampString = "566812434.001085"
+            timestampString = "566840292.098781"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "134"
-            endingLineNumber = "134"
+            startingLineNumber = "215"
+            endingLineNumber = "215"
             landmarkName = "loadPopularMovies()"
             landmarkType = "7">
          </BreakpointContent>
@@ -410,11 +410,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Movies1/Controllers/SearchViewController.swift"
-            timestampString = "566812434.001178"
+            timestampString = "566840292.098832"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "137"
-            endingLineNumber = "137"
+            startingLineNumber = "218"
+            endingLineNumber = "218"
             landmarkName = "loadPopularMovies()"
             landmarkType = "7">
          </BreakpointContent>
@@ -426,11 +426,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Movies1/Controllers/SearchViewController.swift"
-            timestampString = "566812434.001276"
+            timestampString = "566840292.098879"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "138"
-            endingLineNumber = "138"
+            startingLineNumber = "219"
+            endingLineNumber = "219"
             landmarkName = "loadPopularMovies()"
             landmarkType = "7">
          </BreakpointContent>
@@ -442,11 +442,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Movies1/Controllers/SearchViewController.swift"
-            timestampString = "566812434.001397"
+            timestampString = "566840292.0989259"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "142"
-            endingLineNumber = "142"
+            startingLineNumber = "223"
+            endingLineNumber = "223"
             landmarkName = "loadPopularMovies()"
             landmarkType = "7">
          </BreakpointContent>
@@ -458,11 +458,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Movies1/Controllers/SearchViewController.swift"
-            timestampString = "566812434.001477"
+            timestampString = "566840292.098973"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "196"
-            endingLineNumber = "196"
+            startingLineNumber = "277"
+            endingLineNumber = "277"
             landmarkName = "collectionView(_:numberOfItemsInSection:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -474,11 +474,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Movies1/Controllers/SearchViewController.swift"
-            timestampString = "566812434.001538"
+            timestampString = "566840292.0990191"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "199"
-            endingLineNumber = "199"
+            startingLineNumber = "280"
+            endingLineNumber = "280"
             landmarkName = "collectionView(_:numberOfItemsInSection:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -490,11 +490,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Movies1/Controllers/SearchViewController.swift"
-            timestampString = "566812434.001616"
+            timestampString = "566840292.099066"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "217"
-            endingLineNumber = "217"
+            startingLineNumber = "298"
+            endingLineNumber = "298"
             landmarkName = "collectionView(_:cellForItemAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -506,11 +506,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Movies1/Controllers/SearchViewController.swift"
-            timestampString = "566812434.001711"
+            timestampString = "566840292.099111"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "261"
-            endingLineNumber = "261"
+            startingLineNumber = "342"
+            endingLineNumber = "342"
             landmarkName = "collectionView(_:prefetchItemsAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -522,11 +522,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Movies1/Controllers/SearchViewController.swift"
-            timestampString = "566812434.001781"
+            timestampString = "566840292.099157"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "194"
-            endingLineNumber = "194"
+            startingLineNumber = "275"
+            endingLineNumber = "275"
             landmarkName = "collectionView(_:numberOfItemsInSection:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -538,11 +538,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Movies1/Controllers/SearchViewController.swift"
-            timestampString = "566812434.0018359"
+            timestampString = "566840292.0992039"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "209"
-            endingLineNumber = "209"
+            startingLineNumber = "290"
+            endingLineNumber = "290"
             landmarkName = "collectionView(_:cellForItemAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -554,11 +554,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Movies1/Controllers/SearchViewController.swift"
-            timestampString = "566812434.001888"
+            timestampString = "566840292.09925"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "214"
-            endingLineNumber = "214"
+            startingLineNumber = "295"
+            endingLineNumber = "295"
             landmarkName = "collectionView(_:cellForItemAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -602,11 +602,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Movies1/Controllers/SearchViewController.swift"
-            timestampString = "566812434.001999"
+            timestampString = "566840292.099342"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "132"
-            endingLineNumber = "132"
+            startingLineNumber = "213"
+            endingLineNumber = "213"
             landmarkName = "loadPopularMovies()"
             landmarkType = "7">
          </BreakpointContent>
@@ -618,11 +618,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Movies1/Controllers/SearchViewController.swift"
-            timestampString = "566812434.0020601"
+            timestampString = "566840292.099391"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "131"
-            endingLineNumber = "131"
+            startingLineNumber = "212"
+            endingLineNumber = "212"
             landmarkName = "loadPopularMovies()"
             landmarkType = "7">
             <Locations>
