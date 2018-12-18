@@ -2,8 +2,7 @@
 //  Theme.swift
 //  BiciBoard
 //
-//  Created by Renzo Alvarado on 28/8/17.
-//  Copyright © 2017 desappstre {eStudio}. All rights reserved.
+//  Created by Renzo Alvarado 
 //
 
 import UIKit

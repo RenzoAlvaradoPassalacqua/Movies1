@@ -2,8 +2,8 @@
 //  HttpResult.swift
 //  CoreTraktTV
 //
-//  Created by Adolfo on 10/4/18.
-//  Copyright (c) 2018 Desappstre Studio. All rights reserved.
+//  Created by Renzo Alvarado
+ 
 //
 import Foundation
 

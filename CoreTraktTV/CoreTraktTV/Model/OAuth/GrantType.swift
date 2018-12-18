@@ -2,8 +2,7 @@
 //  GrantType.swift
 //  CoreTraktTV
 //
-//  Created by Renzo Alvarado  .
-//  Copyright © 2018 desappstre {eStudio}. All rights reserved.
+//  Created by Renzo Alvarado
 //
 
 import Foundation

@@ -3,7 +3,6 @@
 //  Movies1
 //
 //  Created by usuario on 17/12/18.
-//  Copyright © 2018 RenzoAlvarado. All rights reserved.
 //
 
 import UIKit

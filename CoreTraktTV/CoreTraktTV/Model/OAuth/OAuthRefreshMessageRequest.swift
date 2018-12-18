@@ -3,7 +3,6 @@
 //  CoreTraktTV
 //
 //  Created by Renzo Alvarado
-//  Copyright © 2018 desappstre {eStudio}. All rights reserved.
 //
 
 import Foundation
