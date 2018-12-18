@@ -10,7 +10,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CoreTraktTV/CoreTraktTV/TraktTVClient+OAuth.swift"
-            timestampString = "566767531.991878"
+            timestampString = "566853131.771051"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "58"
@@ -26,7 +26,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CoreTraktTV/CoreTraktTV/TraktTVClient+OAuth.swift"
-            timestampString = "566767531.9919519"
+            timestampString = "566853131.771135"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "53"
@@ -42,7 +42,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CoreTraktTV/CoreTraktTV/TraktTVClient+OAuth.swift"
-            timestampString = "566767531.9920011"
+            timestampString = "566853131.771191"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "34"
@@ -58,7 +58,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CoreTraktTV/CoreTraktTV/TraktTVClient+OAuth.swift"
-            timestampString = "566767531.992046"
+            timestampString = "566853131.771242"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "79"
@@ -74,7 +74,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CoreTraktTV/CoreTraktTV/TraktTVClient+OAuth.swift"
-            timestampString = "566767531.992092"
+            timestampString = "566853131.771294"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "105"
@@ -90,7 +90,7 @@
                   moduleName = "CoreTraktTV"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/usuario/Documents/Renzo/Bela/GreatMovies1/Movies1/CoreTraktTV/CoreTraktTV/TraktTVClient+OAuth.swift"
-                  timestampString = "566812434.7386889"
+                  timestampString = "566853132.629686"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "105"
@@ -105,7 +105,7 @@
                   moduleName = "CoreTraktTV"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/usuario/Documents/Renzo/Bela/GreatMovies1/Movies1/CoreTraktTV/CoreTraktTV/TraktTVClient+OAuth.swift"
-                  timestampString = "566812434.740873"
+                  timestampString = "566853132.6320519"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "106"
@@ -154,11 +154,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Movies1/Controllers/SearchViewController.swift"
-            timestampString = "566840292.09834"
+            timestampString = "566857297.925356"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "181"
-            endingLineNumber = "181"
+            startingLineNumber = "188"
+            endingLineNumber = "188"
             landmarkName = "localizeText()"
             landmarkType = "7">
          </BreakpointContent>
@@ -170,11 +170,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Movies1/Controllers/SearchViewController.swift"
-            timestampString = "566840292.098418"
+            timestampString = "566857297.925842"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "47"
-            endingLineNumber = "47"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
@@ -186,11 +186,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Movies1/Controllers/SearchViewController.swift"
-            timestampString = "566840292.098471"
+            timestampString = "566857297.926169"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "376"
-            endingLineNumber = "376"
+            startingLineNumber = "412"
+            endingLineNumber = "412"
             landmarkName = "showCell(_:didSelectShow:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -202,7 +202,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CoreTraktTV/CoreTraktTV/TraktTVClient.swift"
-            timestampString = "566812433.9969651"
+            timestampString = "566857297.926591"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "84"
@@ -218,7 +218,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CoreTraktTV/CoreTraktTV/TraktTVClient.swift"
-            timestampString = "566812433.997594"
+            timestampString = "566857297.9266599"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "90"
@@ -230,11 +230,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CoreTraktTV/CoreTraktTV/TraktTVClient.swift"
-            timestampString = "566812433.998023"
+            timestampString = "566857297.926715"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "92"
@@ -250,11 +250,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CoreTraktTV/CoreTraktTV/TraktTVClient.swift"
-            timestampString = "566812433.998492"
+            timestampString = "566857297.92677"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "163"
-            endingLineNumber = "163"
+            startingLineNumber = "160"
+            endingLineNumber = "160"
             landmarkName = "processRequest(_:httpHandler:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -266,7 +266,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CoreTraktTV/CoreTraktTV/TraktTVClient.swift"
-            timestampString = "566812433.998881"
+            timestampString = "566857297.926824"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "88"
@@ -282,11 +282,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CoreTraktTV/CoreTraktTV/TraktTVClient.swift"
-            timestampString = "566812433.999205"
+            timestampString = "566857297.926878"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "99"
-            endingLineNumber = "99"
+            startingLineNumber = "96"
+            endingLineNumber = "96"
             landmarkName = "makeURLRequest(string:withFilters:paginationOptions:authenticationRequired:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -314,7 +314,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CoreTraktTV/CoreTraktTV/TraktTVClient.swift"
-            timestampString = "566812433.9995511"
+            timestampString = "566857297.926965"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "49"
@@ -330,11 +330,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CoreTraktTV/CoreTraktTV/TraktTVClient.swift"
-            timestampString = "566812434.0000449"
+            timestampString = "566857297.92702"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "156"
-            endingLineNumber = "156"
+            startingLineNumber = "153"
+            endingLineNumber = "153"
             landmarkName = "processRequest(_:httpHandler:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -346,11 +346,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Movies1/Controllers/SearchViewController.swift"
-            timestampString = "566840292.09869"
+            timestampString = "566857297.927075"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "362"
-            endingLineNumber = "362"
+            startingLineNumber = "398"
+            endingLineNumber = "398"
             landmarkName = "showCell(_:didSelectShow:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -362,7 +362,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CoreTraktTV/CoreTraktTV/TraktTVClient+Movie.swift"
-            timestampString = "566811753.629181"
+            timestampString = "566857297.927402"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "36"
@@ -378,11 +378,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CoreTraktTV/CoreTraktTV/TraktTVClient.swift"
-            timestampString = "566812434.000595"
+            timestampString = "566857297.927476"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "125"
-            endingLineNumber = "125"
+            startingLineNumber = "122"
+            endingLineNumber = "122"
             landmarkName = "recoverPaginationData(fromResponse:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -394,75 +394,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Movies1/Controllers/SearchViewController.swift"
-            timestampString = "566840292.098781"
+            timestampString = "566857297.927532"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "215"
-            endingLineNumber = "215"
-            landmarkName = "loadPopularMovies()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Movies1/Controllers/SearchViewController.swift"
-            timestampString = "566840292.098832"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "218"
-            endingLineNumber = "218"
-            landmarkName = "loadPopularMovies()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Movies1/Controllers/SearchViewController.swift"
-            timestampString = "566840292.098879"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "219"
-            endingLineNumber = "219"
-            landmarkName = "loadPopularMovies()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Movies1/Controllers/SearchViewController.swift"
-            timestampString = "566840292.0989259"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "223"
-            endingLineNumber = "223"
-            landmarkName = "loadPopularMovies()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Movies1/Controllers/SearchViewController.swift"
-            timestampString = "566840292.098973"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "277"
-            endingLineNumber = "277"
+            startingLineNumber = "313"
+            endingLineNumber = "313"
             landmarkName = "collectionView(_:numberOfItemsInSection:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -474,11 +410,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Movies1/Controllers/SearchViewController.swift"
-            timestampString = "566840292.0990191"
+            timestampString = "566857297.92785"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "280"
-            endingLineNumber = "280"
+            startingLineNumber = "316"
+            endingLineNumber = "316"
             landmarkName = "collectionView(_:numberOfItemsInSection:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -490,11 +426,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Movies1/Controllers/SearchViewController.swift"
-            timestampString = "566840292.099066"
+            timestampString = "566857297.92818"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "298"
-            endingLineNumber = "298"
+            startingLineNumber = "334"
+            endingLineNumber = "334"
             landmarkName = "collectionView(_:cellForItemAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -506,11 +442,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Movies1/Controllers/SearchViewController.swift"
-            timestampString = "566840292.099111"
+            timestampString = "566857297.928683"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "342"
-            endingLineNumber = "342"
+            startingLineNumber = "378"
+            endingLineNumber = "378"
             landmarkName = "collectionView(_:prefetchItemsAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -522,11 +458,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Movies1/Controllers/SearchViewController.swift"
-            timestampString = "566840292.099157"
+            timestampString = "566857297.929371"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "275"
-            endingLineNumber = "275"
+            startingLineNumber = "311"
+            endingLineNumber = "311"
             landmarkName = "collectionView(_:numberOfItemsInSection:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -538,11 +474,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Movies1/Controllers/SearchViewController.swift"
-            timestampString = "566840292.0992039"
+            timestampString = "566857297.93002"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "290"
-            endingLineNumber = "290"
+            startingLineNumber = "326"
+            endingLineNumber = "326"
             landmarkName = "collectionView(_:cellForItemAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -554,11 +490,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Movies1/Controllers/SearchViewController.swift"
-            timestampString = "566840292.09925"
+            timestampString = "566857297.930365"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "295"
-            endingLineNumber = "295"
+            startingLineNumber = "331"
+            endingLineNumber = "331"
             landmarkName = "collectionView(_:cellForItemAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -570,7 +506,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CoreTraktTV/CoreTraktTV/Pagination.swift"
-            timestampString = "566811120.9418629"
+            timestampString = "566853551.127973"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "17"
@@ -586,7 +522,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CoreTraktTV/CoreTraktTV/Pagination.swift"
-            timestampString = "566811120.941928"
+            timestampString = "566853551.128028"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "21"
@@ -602,61 +538,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Movies1/Controllers/SearchViewController.swift"
-            timestampString = "566840292.099342"
+            timestampString = "566857297.930907"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "213"
-            endingLineNumber = "213"
-            landmarkName = "loadPopularMovies()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Movies1/Controllers/SearchViewController.swift"
-            timestampString = "566840292.099391"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "212"
-            endingLineNumber = "212"
-            landmarkName = "loadPopularMovies()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Movies1.SearchViewController.(loadPopularMovies in _8D15947A6F42BE01AD03B9BEE6E27913)() -&gt; ()"
-                  moduleName = "Movies1"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/usuario/Documents/Renzo/Bela/GreatMovies1/Movies1/Movies1/Controllers/SearchViewController.swift"
-                  timestampString = "566812434.260584"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "131"
-                  endingLineNumber = "131"
-                  offsetFromSymbolStart = "26">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Array&lt;CoreTraktTV.Movie&gt;&gt;, Swift.Optional&lt;CoreTraktTV.Pagination&gt;, Swift.Optional&lt;CoreTraktTV.TraktError&gt;) -&gt; () in Movies1.SearchViewController.(loadPopularMovies in _8D15947A6F42BE01AD03B9BEE6E27913)() -&gt; ()"
-                  moduleName = "Movies1"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/usuario/Documents/Renzo/Bela/GreatMovies1/Movies1/Movies1/Controllers/SearchViewController.swift"
-                  timestampString = "566812434.262269"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "132"
-                  endingLineNumber = "132"
-                  offsetFromSymbolStart = "62">
-               </Location>
-            </Locations>
+            startingLineNumber = "263"
+            endingLineNumber = "263"
+            landmarkName = "SearchViewController"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -666,7 +554,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CoreTraktTV/CoreTraktTV/TraktTVClient+Movie.swift"
-            timestampString = "566811753.63056"
+            timestampString = "566857297.93136"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "22"
@@ -682,7 +570,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CoreTraktTV/CoreTraktTV/TraktTVClient+Movie.swift"
-            timestampString = "566811753.630865"
+            timestampString = "566857297.9314311"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "26"
@@ -698,7 +586,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CoreTraktTV/CoreTraktTV/TraktTVClient+Movie.swift"
-            timestampString = "566811753.631152"
+            timestampString = "566857297.931493"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "33"
@@ -714,7 +602,7 @@
                   moduleName = "CoreTraktTV"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/usuario/Documents/Renzo/Bela/GreatMovies1/Movies1/CoreTraktTV/CoreTraktTV/TraktTVClient+Movie.swift"
-                  timestampString = "566812434.764506"
+                  timestampString = "566853132.679523"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "33"
@@ -729,7 +617,7 @@
                   moduleName = "CoreTraktTV"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/usuario/Documents/Renzo/Bela/GreatMovies1/Movies1/CoreTraktTV/CoreTraktTV/TraktTVClient+Movie.swift"
-                  timestampString = "566812434.766555"
+                  timestampString = "566853132.682027"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "33"
@@ -746,7 +634,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CoreTraktTV/CoreTraktTV/TraktTVClient+Movie.swift"
-            timestampString = "566811753.631438"
+            timestampString = "566857297.9315521"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "38"
@@ -762,7 +650,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CoreTraktTV/CoreTraktTV/TraktTVClient+Movie.swift"
-            timestampString = "566811753.631723"
+            timestampString = "566857297.931643"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "47"
@@ -778,11 +666,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CoreTraktTV/CoreTraktTV/TraktTVClient.swift"
-            timestampString = "566812434.002193"
+            timestampString = "566857297.931706"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "149"
-            endingLineNumber = "149"
+            startingLineNumber = "146"
+            endingLineNumber = "146"
             landmarkName = "processRequest(_:httpHandler:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -794,27 +682,27 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CoreTraktTV/CoreTraktTV/TraktTVClient.swift"
-            timestampString = "566812434.002517"
+            timestampString = "566857297.931761"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "137"
+            endingLineNumber = "137"
+            landmarkName = "processRequest(_:httpHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CoreTraktTV/CoreTraktTV/TraktTVClient.swift"
+            timestampString = "566857297.93181"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "140"
             endingLineNumber = "140"
-            landmarkName = "processRequest(_:httpHandler:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "CoreTraktTV/CoreTraktTV/TraktTVClient.swift"
-            timestampString = "566812434.002768"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "143"
-            endingLineNumber = "143"
             landmarkName = "processRequest(_:httpHandler:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -858,108 +746,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CoreTraktTV/CoreTraktTV/TraktTVClient+Movie.swift"
-            timestampString = "566811753.632094"
+            timestampString = "566857297.931911"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "66"
-            endingLineNumber = "66"
-            landmarkName = "popularMovies(filteringBy:pagination:handler:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "CoreTraktTV.TraktTVClient.popularMovies(filteringBy: Swift.Optional&lt;Swift.Array&lt;CoreTraktTV.FilterValue&gt;&gt;, pagination: Swift.Optional&lt;Swift.Array&lt;CoreTraktTV.FilterValue&gt;&gt;, handler: (Swift.Optional&lt;Swift.Array&lt;CoreTraktTV.Movie&gt;&gt;, Swift.Optional&lt;CoreTraktTV.Pagination&gt;, Swift.Optional&lt;CoreTraktTV.TraktError&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "CoreTraktTV"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/usuario/Documents/Renzo/Bela/GreatMovies1/Movies1/CoreTraktTV/CoreTraktTV/TraktTVClient+Movie.swift"
-                  timestampString = "566812434.786293"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "66"
-                  endingLineNumber = "66"
-                  offsetFromSymbolStart = "390">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (CoreTraktTV.HttpResult) -&gt; () in CoreTraktTV.TraktTVClient.popularMovies(filteringBy: Swift.Optional&lt;Swift.Array&lt;CoreTraktTV.FilterValue&gt;&gt;, pagination: Swift.Optional&lt;Swift.Array&lt;CoreTraktTV.FilterValue&gt;&gt;, handler: (Swift.Optional&lt;Swift.Array&lt;CoreTraktTV.Movie&gt;&gt;, Swift.Optional&lt;CoreTraktTV.Pagination&gt;, Swift.Optional&lt;CoreTraktTV.TraktError&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "CoreTraktTV"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/usuario/Documents/Renzo/Bela/GreatMovies1/Movies1/CoreTraktTV/CoreTraktTV/TraktTVClient+Movie.swift"
-                  timestampString = "566812434.788309"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "67"
-                  endingLineNumber = "67"
-                  offsetFromSymbolStart = "83">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "CoreTraktTV/CoreTraktTV/TraktTVClient+Movie.swift"
-            timestampString = "566811753.632368"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "69"
-            endingLineNumber = "69"
-            landmarkName = "popularMovies(filteringBy:pagination:handler:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (CoreTraktTV.HttpResult) -&gt; () in CoreTraktTV.TraktTVClient.popularMovies(filteringBy: Swift.Optional&lt;Swift.Array&lt;CoreTraktTV.FilterValue&gt;&gt;, pagination: Swift.Optional&lt;Swift.Array&lt;CoreTraktTV.FilterValue&gt;&gt;, handler: (Swift.Optional&lt;Swift.Array&lt;CoreTraktTV.Movie&gt;&gt;, Swift.Optional&lt;CoreTraktTV.Pagination&gt;, Swift.Optional&lt;CoreTraktTV.TraktError&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "CoreTraktTV"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/usuario/Documents/Renzo/Bela/GreatMovies1/Movies1/CoreTraktTV/CoreTraktTV/TraktTVClient+Movie.swift"
-                  timestampString = "566812434.7912509"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "69"
-                  endingLineNumber = "69"
-                  offsetFromSymbolStart = "137">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (CoreTraktTV.HttpResult) -&gt; () in CoreTraktTV.TraktTVClient.popularMovies(filteringBy: Swift.Optional&lt;Swift.Array&lt;CoreTraktTV.FilterValue&gt;&gt;, pagination: Swift.Optional&lt;Swift.Array&lt;CoreTraktTV.FilterValue&gt;&gt;, handler: (Swift.Optional&lt;Swift.Array&lt;CoreTraktTV.Movie&gt;&gt;, Swift.Optional&lt;CoreTraktTV.Pagination&gt;, Swift.Optional&lt;CoreTraktTV.TraktError&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "CoreTraktTV"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/usuario/Documents/Renzo/Bela/GreatMovies1/Movies1/CoreTraktTV/CoreTraktTV/TraktTVClient+Movie.swift"
-                  timestampString = "566812434.794039"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "69"
-                  endingLineNumber = "69"
-                  offsetFromSymbolStart = "312">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "CoreTraktTV/CoreTraktTV/TraktTVClient+Movie.swift"
-            timestampString = "566811753.632628"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "72"
-            endingLineNumber = "72"
-            landmarkName = "popularMovies(filteringBy:pagination:handler:)"
+            startingLineNumber = "90"
+            endingLineNumber = "90"
+            landmarkName = "popularMovies(filteringBy:pagination:nextPage:handler:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -970,12 +762,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CoreTraktTV/CoreTraktTV/TraktTVClient+Movie.swift"
-            timestampString = "566811753.6328861"
+            timestampString = "566857297.931975"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "76"
-            endingLineNumber = "76"
-            landmarkName = "popularMovies(filteringBy:pagination:handler:)"
+            startingLineNumber = "93"
+            endingLineNumber = "93"
+            landmarkName = "popularMovies(filteringBy:pagination:nextPage:handler:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -986,12 +778,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CoreTraktTV/CoreTraktTV/TraktTVClient+Movie.swift"
-            timestampString = "566811753.633146"
+            timestampString = "566857297.932036"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "80"
-            endingLineNumber = "80"
-            landmarkName = "popularMovies(filteringBy:pagination:handler:)"
+            startingLineNumber = "97"
+            endingLineNumber = "97"
+            landmarkName = "popularMovies(filteringBy:pagination:nextPage:handler:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -1002,12 +794,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CoreTraktTV/CoreTraktTV/TraktTVClient+Movie.swift"
-            timestampString = "566811753.633406"
+            timestampString = "566857297.932094"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "83"
-            endingLineNumber = "83"
-            landmarkName = "popularMovies(filteringBy:pagination:handler:)"
+            startingLineNumber = "101"
+            endingLineNumber = "101"
+            landmarkName = "popularMovies(filteringBy:pagination:nextPage:handler:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -1018,12 +810,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CoreTraktTV/CoreTraktTV/TraktTVClient+Movie.swift"
-            timestampString = "566811753.633662"
+            timestampString = "566857297.9321541"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "62"
-            endingLineNumber = "62"
-            landmarkName = "popularMovies(filteringBy:pagination:handler:)"
+            startingLineNumber = "104"
+            endingLineNumber = "104"
+            landmarkName = "popularMovies(filteringBy:pagination:nextPage:handler:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

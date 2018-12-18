@@ -52,11 +52,37 @@ extension TraktTVClient
     /**
 
     */
-    public func popularMovies(filteringBy filters: [FilterValue]? = nil, pagination: [FilterValue]? = nil, handler: @escaping TraktPaginatedCompletionHandler<Movie>) -> Void
+    public func paginationURL(currentpage :Int, goToNext :Bool) -> String?
     {
-        //let trendingURL = "https://api.trakt.tv/shows/popular"
-        let trendingURL = "https://private-anon-a087b86f4e-trakt.apiary-mock.com/movies/popular"
+        var components = URLComponents(string: "https://private-anon-a087b86f4e-trakt.apiary-mock.com/movies/popular")
+        // ?page={page}&limit={limit}
         
+        var page = currentpage
+        if (goToNext){
+            page = page + 1
+            print ("page", page)
+        }
+        
+        let queryItems: [URLQueryItem] = [
+            URLQueryItem(name: "page", value: "\(page)"),
+            URLQueryItem(name: "limit", value: "\(10)")
+        ]
+        
+        components?.queryItems = queryItems
+        
+        return components?.url?.absoluteString
+    }
+    
+    public func popularMovies(filteringBy filters: [FilterValue]? = nil, pagination: [FilterValue]? = nil, nextPage :Int? = nil ,handler: @escaping TraktPaginatedCompletionHandler<Movie>) -> Void
+    {
+       
+        
+        var  trendingURL = "https://private-anon-a087b86f4e-trakt.apiary-mock.com/movies/popular"
+        if (nextPage != nil && nextPage!>0){
+            trendingURL = self.paginationURL(currentpage: nextPage!, goToNext: true)!
+            print ("trendingURL pagination", trendingURL)
+        }
+         
         guard let request = self.makeURLRequest(string: trendingURL, withFilters: filters, paginationOptions: pagination) else
         {
             handler(nil, nil, .preconditionFailed)

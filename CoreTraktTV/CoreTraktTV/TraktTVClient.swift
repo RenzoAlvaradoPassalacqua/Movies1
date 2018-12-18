@@ -91,10 +91,7 @@ public class TraktTVClient
         {
             request.addValue("Bearer \(accessToken)", forHTTPHeaderField: "Authorization")
         }
-        if let paginationFilterParam = pagination
-        {
-             print ("pagination url", paginationFilterParam)
-        }
+         
 
         return request
     }

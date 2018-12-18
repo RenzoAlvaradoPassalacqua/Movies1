@@ -28,7 +28,8 @@ internal class SearchViewController: UIViewController,UICollectionViewDelegateFl
     var footerView:CustomFooterView?
     var items = [Int]()
     var isLoading:Bool = false
-    
+    var currentPage = 1
+    var pageCount = 0
     let footerViewReuseIdentifier = "RefreshFooterView"
    
     // MARK: - Life Cycle
@@ -43,8 +44,9 @@ internal class SearchViewController: UIViewController,UICollectionViewDelegateFl
 
         self.movies = [Movie]()
         self.prepareCollectionView()
+        print ("viewDidLoad currentPage", self.currentPage)
         
-        self.loadPopularMovies()
+        self.loadPopularMovies( numPage : self.pageCount, currentPage: self.currentPage)
     }
     
     /**
@@ -160,7 +162,12 @@ internal class SearchViewController: UIViewController,UICollectionViewDelegateFl
         self.goToNextpage = true
         // Fetch Weather Data
         self.paginationFilter = (self.paginationDetails?.nextPage())!
-        self.loadPopularMovies()
+        
+        self.pageCount = (self.paginationDetails?.pageCount)!
+        self.currentPage = (self.paginationDetails?.currentPage)!
+        print ("currentPage loadMorePopularMovies", self.currentPage)
+        self.loadPopularMovies( numPage : self.pageCount, currentPage: self.currentPage)
+        self.currentPage = self.currentPage + 1
     }
     
     
@@ -206,25 +213,54 @@ internal class SearchViewController: UIViewController,UICollectionViewDelegateFl
             }
         }
     }
-    private func loadPopularMovies() -> Void
+    private func loadPopularMovies(numPage : Int, currentPage: Int) -> Void
     {
-        
-        TraktTVClient.shared.popularMovies( pagination: self.paginationFilter ) { (popularMovies: [Movie]?, pagination: Pagination?, error: TraktError?) -> Void in
-            guard let popularMovies = popularMovies else
-            {
-                return
+        var nextPage=0
+        if (self.goToNextpage){
+            if (numPage <= currentPage){
+                nextPage = currentPage + 1
+            }else{
+                nextPage = currentPage
             }
             
-            self.paginationDetails = pagination
-            self.movies? = (popularMovies)
-            
-            DispatchQueue.main.async
-            {
-                self.collectionViewShows.reloadData()
-                self.refreshControl.endRefreshing()
+            TraktTVClient.shared.popularMovies( nextPage:nextPage ) { (popularMovies: [Movie]?, pagination: Pagination?, error: TraktError?) -> Void in
+                guard let popularMovies = popularMovies else
+                {
+                    return
+                }
+                
+                self.paginationDetails = pagination
+                
+                self.movies? = (popularMovies)
+                
+                DispatchQueue.main.async
+                    {
+                        self.collectionViewShows.reloadData()
+                        self.refreshControl.endRefreshing()
+                        self.goToNextpage = false
+                }
+            }
+        }
+        else{
+            TraktTVClient.shared.popularMovies( ) { (popularMovies: [Movie]?, pagination: Pagination?, error: TraktError?) -> Void in
+                guard let popularMovies = popularMovies else
+                {
+                    return
+                }
+                
+                self.paginationDetails = pagination
+                
+                self.movies? = (popularMovies)
+                
+                DispatchQueue.main.async
+                    {
+                        self.collectionViewShows.reloadData()
+                        self.refreshControl.endRefreshing()
+                }
             }
         }
     }
+        
 }
 
 
