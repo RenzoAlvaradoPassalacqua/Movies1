@@ -146,13 +146,18 @@ internal class SearchViewController: UIViewController,UICollectionViewDelegateFl
                 print("load more trigger")
                 self.isLoading = true
                 self.footerView?.startAnimate()
-                Timer.scheduledTimer(withTimeInterval: 1, repeats: false, block: { (timer:Timer) in
-                    for i:Int in self.items.count + 1...self.items.count + 25 {
-                        self.items.append(i)
-                    }
-                    self.collectionViewShows.reloadData()
-                    self.isLoading = false
-                })
+                
+                print ("loadMorePopularMovies")
+                self.goToNextpage = true
+                // Fetch Weather Data
+                self.paginationFilter = (self.paginationDetails?.nextPage())!
+                
+                self.pageCount = (self.paginationDetails?.pageCount)!
+                self.currentPage = (self.paginationDetails?.currentPage)!
+                print ("currentPage loadMorePopularMovies", self.currentPage)
+                self.loadPopularMovies( numPage : self.pageCount, currentPage: self.currentPage)
+                self.currentPage = self.currentPage + 1
+                
             }
         }
     }
@@ -230,13 +235,18 @@ internal class SearchViewController: UIViewController,UICollectionViewDelegateFl
                 }
                 
                 self.paginationDetails = pagination
-                
-                self.movies? = (popularMovies)
-                
+       
+                for (item) in (popularMovies){
+                    self.movies?.append(item )
+                    
+                }
+                print (" nuevo " , self.movies?.count)
                 DispatchQueue.main.async
                     {
+                        self.refreshControl.beginRefreshing()
                         self.collectionViewShows.reloadData()
                         self.refreshControl.endRefreshing()
+                
                         self.goToNextpage = false
                 }
             }
@@ -250,10 +260,15 @@ internal class SearchViewController: UIViewController,UICollectionViewDelegateFl
                 
                 self.paginationDetails = pagination
                 
-                self.movies? = (popularMovies)
-                
+                //self.movies? = (popularMovies)
+                 for (item) in (popularMovies){
+                    self.movies?.append(item )
+                    
+                }
+                print (self.movies?.count)
                 DispatchQueue.main.async
                     {
+                        self.refreshControl.beginRefreshing()
                         self.collectionViewShows.reloadData()
                         self.refreshControl.endRefreshing()
                 }
